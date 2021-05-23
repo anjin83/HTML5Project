@@ -1,0 +1,12 @@
+/* ELEMENT SELECTORS */
+/* Use #<id> to reference element ids */
+#titleHeader {
+  color: aqua;
+  background: black;
+}
+
+#footerHeader {
+  color: green;
+  font-family: "Lucida Sans";
+  background: grey;
+}

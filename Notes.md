@@ -19,6 +19,11 @@ Hyperlink text will not be automatically placed on a new line.
 Need to put http or https in the URI.  
 href starting with #\<id\> will link to Id 
 
+# CSS Notes
+Basic CSS Syntax  
+
+`selector{property:value;property:value}`
+
 # Keyboard Shortcuts
 - CTRL + Z : Undo
 - CTRL + C : Copy
