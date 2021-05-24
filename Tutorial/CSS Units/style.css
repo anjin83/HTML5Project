@@ -1,0 +1,85 @@
+/* font-size, width, height, pixels */
+/* Pixels / Absolute value */
+/* h1 {  
+  font-size: 40px;
+  width: 200px;
+  height: 300px;
+  background: blue;
+} */
+
+/* Percent values - Relative */
+/* Relative values of child elements are relative to parent elements */
+/* .inner {
+  width: 50%;
+  height: 50%;
+  background: red;
+}
+
+.outer {
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+} */
+
+/* em - Relative, depends on parent
+1em = 16px default browser style
+1em = base value */
+/* .relative {
+  font-size: 2em;
+
+}
+
+.absolute {
+  font-size: 32px;
+}
+
+div {
+  font-size: 10px;
+} */
+
+/* 
+  rem - Relative - depends on root
+  1rem = 16px standard browser style
+*/
+/* html {
+  font-size: 32px;
+}
+
+div {
+  font-size: 10px;
+}
+
+.relative {
+  font-size: 2rem;
+}
+
+.absolute {
+  font-size: 32px;
+} */
+
+/*
+  Relative
+  vh - height - percent of the screen
+  vw - width - percent of the screen
+*/
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  width: 50vw;
+  height: 50vh;
+  background-color: red;
+}
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  background-color: blue;
+} */
+
+/* 
+  Default browser styles and google devTools
+*/
