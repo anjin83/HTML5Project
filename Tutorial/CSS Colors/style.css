@@ -1,0 +1,24 @@
+/* Color Properties */
+/* Color Background Color */
+/* Colors can be selected by name or can be specified using rgb() */
+/* Transparency for color can be selected using rgba() with alpha being a value from 0-1*/
+/* Colors can also be select from their hex value using #RRGGBB ex #b388eb */
+/* HSL Can also be used to choose colors (Hue, Saturation, Lightness) using hsl(xx%, xx%, xx%)*/
+#first {
+  color: rgb(255, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#second {
+  color: #00ff00;
+  background: rgb(255, 255, 255);
+}
+
+#three {
+  color: rgb(0, 0, 255);
+  background: rgb(75, 100, 125);
+}
+
+body {
+  background: rgba(112, 110, 56, 0.25);
+}

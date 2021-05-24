@@ -1,4 +1,6 @@
-# HTML Tag Notes
+# HTML  
+
+## HTML Tag Notes
 - \<form\> creates a form. Action/Method  
   - \<textarea\>  Creates block to input multiple lines of text  
   - \<label\> . for [id] . Creates a label for the element with the - given id  
@@ -18,8 +20,8 @@
 - &\<special character\>; is used for special character 
 - \<sup\>/\<sub\> tags produce super and subscript 
 - \<strong\> = Bold. \<em\> = Italics. Accessabilty Screen readers will also emphasize these elements.
-- \<div\>   
-- \<span\>
+- \<div\> Used to create blocks that styles can be applied to.   
+- \<span\> Used to create inline sections that styles can be applied to.
 - Miscellaneous Notes:  
     Dummy links can be placed with href="#"   
     Adjusting an images width will also alter the height   
@@ -29,7 +31,7 @@
     Need to put http or https in the URI.  
     href starting with #\<id\> will link to Id
 
-# HTML Properties
+## HTML Properties
   - class
   - id
 
@@ -38,7 +40,9 @@ Basic CSS Syntax
 
 `selector{property:value;property:value}`
 
-Use . notation to select html classes: `.<class> {<property>:<value>;<property>:<value>;}
+Use . notation to select html classes: `.\<class\> {\<property\>:\<value\>;\<property\>:\<value\>;}
+
+## Inheritance
 
 # Keyboard Shortcuts
 - CTRL + Z : Undo
@@ -56,10 +60,13 @@ Use . notation to select html classes: `.<class> {<property>:<value>;<property>:
 - ALT + Shift + Down : Copy line
 
 # Outside Links
-Examples of copywrite free image sites: 
-1. Pixabay 
-2. Pexels 
-3. Gratisography
+## Examples of copywrite free image sites: 
+1. [Pixabay](https://pixabay.com/) 
+2. [Pexels](https://www.pexels.com/)
+3. [Gratisography](https://gratisography.com/)
+
+## Color Schems
+1. [Coolers](https://coolors.co/)
 
 
 

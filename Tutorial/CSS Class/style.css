@@ -1,11 +1,12 @@
 /* ELEMENT SELECTORS */
 /* Use #<id> to reference element ids */
 /* DIV SPAN */
-
 .green {
   color: green;
 }
 .red {
+  color: red;
+  background: grey;
 }
 
 #title {
@@ -14,11 +15,6 @@
 
 .lowercase {
   text-transform: lowercase;
-}
-
-div {
-  color: red;
-  background: grey;
 }
 
 span {

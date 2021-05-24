@@ -1,0 +1,46 @@
+/* ELEMENT SELECTORS */
+/* Use #<id> to reference element ids */
+/* INHERITANCE */
+/* Child elements inherit properties defined in parent elements unless specifically overwritter */
+/* body {
+  font-family: fantasy;
+  line-height: 1.5em;
+}
+
+div {
+  color: blue;
+  border: 3px solid black;1
+}
+
+h2 {
+  color: green;
+} */
+
+/* Last rule * Universal selector */
+/* Last rule added for an element type is used to define the style for that element. */
+/* p {
+  color: blue;
+} */
+/* This selector was defined last and will be used */
+/* p {
+  color: red;
+} */
+
+/* Styles are applied from most specific to least specific */
+/* A class is more specific than the paragraph tag, so it's style is applied to paragraph elements with the red class */
+/* .red {
+  color: red;
+}
+
+p {
+  color: blue;
+} */
+
+/* Universal selector is applied to all element. Has least specificity */
+* {
+  color: blue;
+}
+
+p {
+  color: red;
+}
