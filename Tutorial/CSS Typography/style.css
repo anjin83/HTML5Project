@@ -1,0 +1,19 @@
+/* 
+  font-size / font-family
+*/
+/* You can select multiple fonts in a font family. In case a font is not available in a browser, it will use the next font. The last font listed will be a generic that the browser can use to select a similar font type from available fonts. */
+/* body {
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+/* Google fonts */
+body {
+}
+
+h1 {
+}
