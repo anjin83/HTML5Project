@@ -1,0 +1,103 @@
+/* 
+  font-size / font-family
+*/
+/* You can select multiple fonts in a font family. In case a font is not available in a browser, it will use the next font. The last font listed will be a generic that the browser can use to select a similar font type from available fonts. */
+/* body {
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+/* Google fonts */
+/* fonts.google.com has many fonts to choose from */
+/* Importing fonts through style sheet */
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP:wght@400;700&family=Roboto:ital,wght@0,400;1,500;1,700&display=swap");
+/* 
+  Font-weight: Makes fonts bolder. Imported fonts are limited to the boldness that you've downloaded
+  Font-style
+*/
+/* body {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+}
+
+.main {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 900;
+}
+
+.subheading {
+  font-style: normal;
+}
+
+.one {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+}
+
+.two {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+} */
+
+/* 
+  text-align
+  text-indent
+*/
+
+/* body {
+  text-align: right;
+}
+
+.main {
+  text-align: center;
+}
+
+.subheading {
+  text-align: right;
+}
+
+.one {
+  text-indent: 50px;
+  text-align: left;
+}
+
+.two {
+  text-align: left;
+} */
+
+/* 
+  line-height
+  letter-spacing
+  word-spacing
+  text-transform
+  text-decoration
+*/
+.one {
+  line-height: 2.5em;
+}
+
+.two {
+  letter-spacing: 5px;
+  font-size: 2rem;
+  line-height: 80px;
+  text-decoration: overline;
+}
+
+.three {
+  word-spacing: 2rem;
+  text-decoration: underline;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-decoration: line-through;
+}
+
+a {
+  font-size: 40px;
+  text-decoration: none;
+}

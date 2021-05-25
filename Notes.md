@@ -68,5 +68,8 @@ Use . notation to select html classes: `.\<class\> {\<property\>:\<value\>;\<pro
 ## Color Schems
 1. [Coolers](https://coolors.co/)
 
+## Fonts
+1. [Google Fonts](fonts.google.com)
+
 
 
