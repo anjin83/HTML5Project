@@ -34,6 +34,7 @@
 ## HTML Properties
   - class
   - id
+  - display
 
 # CSS Notes
 Basic CSS Syntax  
@@ -41,6 +42,17 @@ Basic CSS Syntax
 `selector{property:value;property:value}`
 
 Use . notation to select html classes: `.\<class\> {\<property\>:\<value\>;\<property\>:\<value\>;}
+
+## CSS Units
+- px
+- %
+- em
+- rem
+
+## CSS Box Model
+- padding
+- border
+
 
 ## Inheritance
 

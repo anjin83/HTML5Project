@@ -1,0 +1,93 @@
+/* CSS Box Model */
+/* Box model: Margin, Border, Padding, Content */
+
+/* padding */
+/* padding: x y = padding top, bottom */
+/* padding: x y a b = padding top, right, bottom, left */
+/* h1 {
+  background-color: red;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+p {
+  background-color: blue;
+  padding: 20px 20px 20px 200px;
+} */
+/* ------------------------------------------- */
+/* Margin */
+/* margin: x y = margin top, bottom */
+/* margin: x y a b = margin top, right, bottom, left */
+/* h1 {
+  background-color: red;
+  padding: 20px;
+  margin: 50px;
+}
+
+p {
+  margin-top: 0px;
+  background-color: blue;
+  padding: 20px;
+} */
+/* ------------------------------------------- */
+/* Border */
+/* Border: width style color */
+/* h1 {
+  background-color: red;
+  padding: 20px;
+  margin: 50px;
+  border-style: dashed;
+  border-width: 10px;
+  border-color: blue;
+}
+
+p {
+  margin-top: 0px;
+  background-color: blue;
+  padding: 20px;
+  border: 15px dotted green;
+  border-bottom: 25px dashed purple;
+} */
+/* ------------------------------------------- */
+/* Border-Radius and Negative Margin */
+/* h1 {
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
+p {
+  border: 13px solid green;
+  border-radius: 25%;
+  margin-top: -100px;
+} */
+/* ------------------------------------------- */
+/* outline and offset */
+/* outline: width style color */
+/* .buttons {
+  margin: 3rem;
+}
+
+a {
+  background-color: #689f2f;
+  text-decoration: none;
+  padding: 1.2rem 1.5rem;
+  color: #222;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+#one {
+  border: 0.2rem solid #222;
+}
+
+#two {
+  outline-width: 0.2rem;
+  outline-style: solid;
+  outline-color: #222;
+  outline: 0.2rem solid #222;
+  outline-offset: 10px;
+  outline-offset: -10px;
+} */
