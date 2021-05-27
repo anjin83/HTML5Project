@@ -52,9 +52,13 @@ Use . notation to select html classes: `.\<class\> {\<property\>:\<value\>;\<pro
 ## CSS Box Model
 - padding
 - border
+- margin
 
 
-## Inheritance
+## CSS Inheritance
+
+## CSS Selectors
+- opacity
 
 # Keyboard Shortcuts
 - CTRL + Z : Undo

@@ -16,7 +16,9 @@ p {
   background-color: blue;
   padding: 20px 20px 20px 200px;
 } */
+
 /* ------------------------------------------- */
+
 /* Margin */
 /* margin: x y = margin top, bottom */
 /* margin: x y a b = margin top, right, bottom, left */
@@ -31,7 +33,9 @@ p {
   background-color: blue;
   padding: 20px;
 } */
+
 /* ------------------------------------------- */
+
 /* Border */
 /* Border: width style color */
 /* h1 {
@@ -50,7 +54,9 @@ p {
   border: 15px dotted green;
   border-bottom: 25px dashed purple;
 } */
+
 /* ------------------------------------------- */
+
 /* Border-Radius and Negative Margin */
 /* h1 {
   border: 5px solid black;
@@ -62,7 +68,9 @@ p {
   border-radius: 25%;
   margin-top: -100px;
 } */
+
 /* ------------------------------------------- */
+
 /* outline and offset */
 /* outline: width style color */
 /* .buttons {

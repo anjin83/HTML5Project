@@ -73,24 +73,57 @@ a {
 } */
 
 /* box-sizing */
-.box-1,
-.box-2,
-.box-3 {
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box_1, .box_2, .box_3{
   width: 200px;
   height: 200px;
+  color: white;
 }
 
-.box-1 {
-  background: red;
+.box_1 {
+  background-color: red;
   padding: 20px;
   box-sizing: border-box;
 }
 
-.box-2 {
-  background: green;
+.box_2 {
+  background-color: blue;
 }
 
-.box-3 {
-  background: purple;
+.box_3 {
+  background-color: green;
   padding: 20px;
+} */
+
+/* 
+  Display:none
+  opacity:0
+  visibility:hidden;
+*/
+/* div {
+  background-color: blue;
+  margin: 10px;
+  color: white;
 }
+
+.none {
+  display: none;
+}
+
+.opacity_1{
+  opacity: 1;  
+}
+.opacity_0 {
+  opacity: 0;
+}
+.opacity_5{
+  opacity: 0.5;
+}
+
+.visibility {
+  visibility: hidden;
+} */
