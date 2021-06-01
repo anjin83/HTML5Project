@@ -48,17 +48,22 @@ Use . notation to select html classes: `.\<class\> {\<property\>:\<value\>;\<pro
 - %
 - em
 - rem
+- vh
 
 ## CSS Box Model
 - padding
 - border
 - margin
+- box-sizing
 
 
 ## CSS Inheritance
 
 ## CSS Selectors
 - opacity
+- background
+  - Gradients
+  - Background Attachment
 
 # Keyboard Shortcuts
 - CTRL + Z : Undo
@@ -86,6 +91,9 @@ Use . notation to select html classes: `.\<class\> {\<property\>:\<value\>;\<pro
 
 ## Fonts
 1. [Google Fonts](fonts.google.com)
+
+## Linear Gradients
+1. [Colorzilla](https://www.colorzilla.com/)
 
 
 
