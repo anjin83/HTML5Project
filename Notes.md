@@ -95,5 +95,8 @@ Use . notation to select html classes: `.\<class\> {\<property\>:\<value\>;\<pro
 ## Linear Gradients
 1. [Colorzilla](https://www.colorzilla.com/)
 
+## Misc. Graphics
+1. [Blob Generator](https://www.blobmaker.app/)
+
 
 
