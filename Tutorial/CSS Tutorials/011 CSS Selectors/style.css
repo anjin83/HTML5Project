@@ -1,0 +1,81 @@
+/* Descendant and Child Combinators  
+  More specific elements get applied over more general
+*/
+/* div h1 {
+  font-size: 60px;
+  color: red;
+}
+
+div > h1 {
+  color: blue;
+}
+
+.header h1 {
+  color: green;
+}
+
+.header > h1 {
+  color: purple;
+} */
+
+/* ::first-line and ::first-letter */
+/* p::first-line {
+  font-weight: bold;
+}
+
+P::first-letter {
+  font-weight: lighter;
+} */
+
+/* :hover */
+/* .header:hover {
+  background-color: blue;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p:hover {
+  background-color: teal;
+} */
+
+/* :link :visited :hover :active */
+/* a:link {
+  color: aqua;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: purple;
+} */
+
+/* :root root element of the document
+html element
+general styles
+css variables
+ */
+:root {
+  background-color: red;
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.absolute {
+  font-size: 24px;
+}
+
+.responsive {
+  font-size: 1.5rem;
+}
