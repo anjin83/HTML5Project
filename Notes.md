@@ -36,6 +36,15 @@
   - id
   - display
 
+## Emmet Shortcuts
+  - \<tag\>.\<class\>: Creates a tag with the given class
+  - \<tag\>#\<id\>: Creates a tag with the given id.
+  - \<tag\>#\<id\>.\<class\>: Creates a tag with both id and class.
+  - #\<tag\>.\<class\>: Creates a div with the given tag and classes.
+  - (tag)>(subtag)>(subtag): Creates Tag element with nested subtag elements
+  - (tag)>(subtag)*n: Creates n subtag elements under the given tag.
+  - p{\<text\>} : Create a paragraph element with the given text
+
 # CSS Notes
 Basic CSS Syntax  
 
@@ -98,5 +107,6 @@ Use . notation to select html classes: `.\<class\> {\<property\>:\<value\>;\<pro
 ## Misc. Graphics
 1. [Blob Generator](https://www.blobmaker.app/)
 
-
+## Icons
+1. [Font Awesome](https://fontawesome.com/)
 

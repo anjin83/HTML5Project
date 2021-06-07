@@ -1,0 +1,81 @@
+/* 
+CSS Variables AKA Custom Properties
+--varName::-ms-value
+property:var<--varName>
+scope
+:root{} === global
+element === local
+any property
+*/
+/* .heading{
+  color: #f15025;
+}
+
+.text{
+  color: blue;
+}
+
+.main-text{
+  color: #1313fa;
+}
+
+.second-heading{
+  color: #f15025;
+} */
+/* :root{
+  --primaryColor:#1313fa;
+  --secondaryColor:#f15025;
+  --mainTransition:all 0.4s linear;
+}
+.heading{
+  color:var(--primaryColor);
+}
+.second-heading{
+  color:var(--primaryColor);
+  transition: var(--mainTransition);
+}
+.second-heading:hover{
+  color:var(--secondaryColor);
+}
+div{
+  --primaryRed: red;  
+}
+.main-text{
+  color: var(--primaryRed);
+}
+.third-heading{
+  color: var(--primaryRed);
+} */
+
+/* 
+ICONS
+Font-Awesome Icons
+*/
+/* .fa-brain{
+  height: 150px;
+  width: 150px;
+  color: green;
+}
+.social-icon{
+  font-size: 4rem;
+  color: blue;
+} */
+
+/* 
+text-shadow <x direction> <y direction> <shadow size> <color>
+box-shadow <x direction> <y direction> <shadow size> <color>
+ */
+/* h1{
+  text-shadow: 1px 1px 3px red;
+}
+
+.box{
+  width: 200px;
+  height: 100px;
+  background-color: blue;
+  margin: 20px;
+  transition: all .5s linear;
+}
+.box:hover{
+  box-shadow: 1px 2px 5px green;
+} */
