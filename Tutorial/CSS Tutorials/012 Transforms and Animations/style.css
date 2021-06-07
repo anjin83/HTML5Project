@@ -1,0 +1,237 @@
+/* 
+transform: Translate()
+*/
+/* 
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: red;
+  transform: translateX(50%);
+}
+.two {
+  background: green;
+  transform: translateY(30px);
+}
+.three {
+  background: blue;
+  transform: translate(25px, 30px);
+} */
+
+/* transform: scale() */
+/* div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: red;
+  transform: scaleX(0.75);
+}
+.two {
+  background: green;
+  transform: scaleY(1.25);
+}
+.three {
+  background: blue;
+  transform: scale(1.5, 1.25);
+} */
+
+/* transform: rotate() */
+/* 
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: red;
+  transform: rotateX(45deg);
+}
+.two {
+  background: green;
+  transform: rotate(45deg);
+}
+.three {
+  background: blue;
+  transform: rotateY(45deg);
+} */
+
+/* transform: skew() */
+/* div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: red;
+  transform: skewX(-20deg);
+}
+.two {
+  background: green;
+  transform: skewY(20deg);
+}
+.three {
+  background: blue;
+  transform: skew(20deg, 20deg);
+} */
+
+/* 
+transition: Change over time
+transition-property:
+transition-duration:
+transition-delay
+transition: property duration delay, property duration delay, ....
+*/
+/* div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.one {
+  background: red;
+}
+.two {
+  background: green;
+  transition: all 4s 5s;
+}
+.three {
+  background: blue;
+  transition: background 3s 2s, border-radius 5s 1s;
+}
+.two:hover {
+  border-radius: 50%;
+  background: purple;
+}
+.three:hover {
+  border-radius: 50%;
+  background: coral;
+} */
+
+/* 
+how the transition takes place
+transition-timing-function:
+transition: <property> <duration> <timing-function> <delay>;
+ease = default
+ease = slow start, fast, slow end
+linear = same speed start to end
+ease-in = slow start
+ease-out = slow end
+ease-in-out = slow start, fast, slow-end
+*/
+/* div {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  color: white;
+  margin: 15px;
+  transition: all 2s;
+}
+
+div:hover {
+  transform: translateX(200px);
+}
+
+.ease {
+  transition-timing-function: ease;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.ease-in {
+  transition-timing-function: ease-in;
+}
+
+.ease-out {
+  transition-timing-function: ease-out;
+}
+
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+} */
+
+/* 
+Transition 0 = 100%
+ANIMATION 0 1% 2% ..... 100%
+Shorthand: animation: <name> <duration> <iterations>
+*/
+/* div {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  background-color: blue;
+  color: white;
+}
+
+.transition {
+  background: red;
+  transition: all 2s linear;
+}
+
+.transition:hover {
+  background: yellow;
+  transform: translateX(150px);
+}
+
+.animation {
+  background: green;
+  animation: move 10s infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(100px);
+    background: purple;
+  }
+  75% {
+    transform: translateX(-100%);
+    background: yellow;
+  }
+  100% {
+    transform: translateX(20px);
+    background: green;
+  }
+} */
+
+/* 
+animation-fill-mode: What values are applied by the animation outside the time it is executing. */
+div {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  background-color: blue;
+  color: white;
+}
+
+.animation {
+  background: green;
+  animation: move 5s 2;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    transform: translateX(100px);
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
